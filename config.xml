@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.curso.meu-app" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"> ​
+    <name>Meu app</name>​
+    <description>​
+        Aplicação desenvolvida no curso
+    </description>​
+    <author email="romarioj2h@yahoo.com.br" href="http://facebook.com/romariohuebra">​
+        Romário Huebra
+    </author>​
+    <content src="index.html" />​
+    <access origin="*" />​
+    <icon src="icon.png"/>​
+    <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.4" />
+    <preference name="orientation" value="portrait" />
+    <preference name="permissions" value="none"/>
+</widget>
